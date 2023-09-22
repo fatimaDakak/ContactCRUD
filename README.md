@@ -17,3 +17,6 @@ AjouterContacts.jsp: The JSP page for adding and editing contacts.
 AjouterContacts.java: The servlet for handling add and edit operations.
 SupprimerContacts.java: The servlet for handling contact deletion.
 ModifierContacts.java: The servlet for updating contacts.
+
+#Base de données
+On créée la base de données dans PHPMyAdmin sous le nom "projet"
