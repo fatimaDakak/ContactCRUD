@@ -13,7 +13,7 @@ Lister Contacts: View a list of all contacts.
 # Project Structure
 The project is structured as follows:
 
-AjouterContacts.jsp: The JSP page for adding and editing contacts.
+AjouterContacts.jsp: The JSP page for adding and editing and deleting contacts.
 AjouterContacts.java: The servlet for handling add and edit operations.
 SupprimerContacts.java: The servlet for handling contact deletion.
 ModifierContacts.java: The servlet for updating contacts.
