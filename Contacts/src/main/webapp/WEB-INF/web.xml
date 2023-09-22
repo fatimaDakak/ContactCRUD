@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Contacts</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <display-name>AjouterContact</display-name>
+    <servlet-name>AjouterContact</servlet-name>
+    <servlet-class>servlets.AjouterContact</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AjouterContact</servlet-name>
+    <url-pattern>/AjouterContact</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ModifierContact</display-name>
+    <servlet-name>ModifierContact</servlet-name>
+    <servlet-class>servlets.ModifierContact</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifierContact</servlet-name>
+    <url-pattern>/ModifierContact</url-pattern>
+  </servlet-mapping>
+ <servlet>
+    <servlet-name>SupprimerContacts</servlet-name>
+    <servlet-class>servlets.SupprimerContacts</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SupprimerContacts</servlet-name>
+    <url-pattern>/SupprimerContact</url-pattern>
+</servlet-mapping>
+
+  
+
+</web-app>

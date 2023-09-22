@@ -1,0 +1,188 @@
+@charset "windows-1256";
+.menu_container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 40%;
+	margin-left:10px;
+	margin-top : -100px;
+}
+
+.menu_container .menu-logo{
+	width: 60%;
+	margin-left: -200px;
+}
+
+.menu_container .menu-logo img{
+	width: 100%;
+	margin-left:1100px
+	
+	
+}
+
+.menu_container .menu_items{
+	border-bottom: 5px solid #000000;
+	border-radius: 6px;
+	margin-left: -300px;
+}
+
+.menu_container .menu_items input{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px;
+	transition: .3s ease-in-out;
+	font-size: 20px;
+	color: darkred ;
+	font-weight: bold;
+}
+
+.menu_container .menu_items input:hover{
+	background-color: #b90000;
+	color: white;	
+}
+
+	
+
+
+/* main content */
+.main_content{
+    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: -40px;
+	background-image: url('ressources/images/accueil.png');
+	background-size: cover;
+	background-position: center;
+		
+}
+.ship {
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  transform: translate(50%, -50%);
+  color: darkred;
+  font-weight: bold;
+  font-family: Arial;
+   font-size :280%;
+}
+.shi{
+  position: absolute;
+  top: 40%;
+  right:  35%;
+  transform: translate(50%, 45%);
+  color: darkred;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+   font-size :280%;
+}
+.procede {
+  position: absolute;
+  top: 43%;
+  right: 35%;
+  transform: translate(50%, 205%);
+  color: Black ;
+  font-weight: bold;
+  font-style : italic;
+   font-family: Arial, sans-serif;
+  font-size : 220%;
+}
+.proced {
+  position: absolute;
+  top:  43%;
+  right: 35%;
+  transform: translate(50%, 285%);
+  color: Black ;
+  font-style : italic;
+  font-weight: bold;
+   font-family: Arial, sans-serif;
+  font-size : 220%;
+}
+
+
+.main_content form {
+	background:transparent;
+	padding: 35px;
+	border-radius: 20px;
+	margin:auto;
+	margin-left:150px
+}
+
+#se-souvenir{
+	color: #800000;
+	font-weight: bold;
+	margin-right:50px;
+	font-size: 20px;
+	 font-family: Arial, sans-serif;
+	
+}
+
+.main_content form .inputField{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left:-10px ;
+	
+}
+
+.main_content form .inputField input{
+	border-color: #b90000;
+	border-radius:20px ;
+	margin-left: -60px;
+	padding: 15px 65px;
+	background-color: #800000;
+	color: white;
+}
+
+.main_content form .buttons{
+	align-items: center;
+	
+}
+
+.main_content form .buttons input{
+	
+	font-size: 15px;
+	background-color: #800000;
+	color: white;
+	padding: 8px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	width: 60%;
+	transition: .3s ease-in-out;
+	margin-left: 0px;
+}
+
+.main_content form .buttons input:hover{
+	background-color: #b90000;
+	color: white;
+	
+}
+.main_content .accueil-image{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.main_content .accueil-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+
+
+/* main content */
